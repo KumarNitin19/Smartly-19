@@ -1,0 +1,22 @@
+@media (max-width:992px){
+    .aboutBody{
+        text-align: center;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+    }
+    .aboutBody img{
+        order: 0 !important;
+    }
+    .aboutContent{
+        order: 1 !important;
+    }
+}
+
+@media (max-width:580px){
+    
+    .aboutBody img{
+        height:  100% !important;
+        width:  100% !important;
+    }
+}

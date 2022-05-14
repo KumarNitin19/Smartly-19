@@ -1,0 +1,98 @@
+.productComponent{
+    background: #fefafa;
+}
+.card{
+    transition: all .5s ease;
+    border-radius: 17px !important;
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px; 
+}
+.card:hover{
+    transform: scale(1,1);
+    /* box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.5); */
+    box-shadow: rgba(0, 0, 0, 0.3) 0px 19px 38px, rgba(0, 0, 0, 0.22) 0px 15px 12px;
+}
+.card-title{
+    font-weight: 600 !important;
+    color: grey !important;
+    font-size: 0.9rem !important;
+}
+.lead{
+    font-size: 0.95rem !important;
+    font-weight: 600 !important;
+    color: rgb(0, 0, 0) !important;
+}
+.arrowButton{
+    color: #ed3836 !important;
+    font-size: 0.9rem !important;
+    font-weight: 600 !important;
+    border: 2px solid #ed3836  !important;
+}
+
+.dropdownButton{
+    background: #ed3836 !important;
+    color: white !important;
+    font-weight: 700 !important;
+}
+.dropdown-menu{
+    height: 150px;
+    border-radius: 10px !important;
+    background: #fefafa !important;
+    overflow-y: scroll;
+}
+.productHeading{
+    display: flex;
+    justify-content: center;
+}
+.productHeading h1{
+    display: inline-flex;
+    justify-content: center;
+    color: #ed3836 !important;
+}
+.productHeading p{
+    color: black !important;
+}
+
+.arrowButton:hover{
+    background: #fcebec !important;
+    border:  2px solid #fcebec !important;
+}
+.productDetail .product img{
+    transition: all .5s ease;
+}
+.productDetail .product img:hover{
+    transform: scale(1.1);
+}
+.card-img-top{
+    min-height: 250px !important;
+    max-height: 250px !important;
+    object-fit: contain;
+}
+.product img{
+    min-height: 100%;
+    max-height: 100%;
+    max-width: 100%;
+}
+
+
+@media (max-width:768px){
+    .card-img-top{
+        min-height: 150px !important;
+        max-height: 150px !important;
+    }
+}
+
+@media (max-width:992px){
+    .product img{
+        width: 100%;
+        margin: auto;
+        object-fit: contain;
+    }
+    .productContent{
+        margin-top: 3rem !important;
+    }
+    .productContainer{
+        display: flex !important;
+        flex-direction: column !important;
+        align-items: center !important;
+    }
+}

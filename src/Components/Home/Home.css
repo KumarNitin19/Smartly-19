@@ -1,0 +1,98 @@
+.home{
+    background-image: linear-gradient(to right top, #feebec, #fde7e9, #fce4e5, #fbe0e2, #faddde);
+    padding: 5rem 0rem;
+    /* background-color: #fbe5e6; */
+}
+.homeBody{
+    color: black;
+}
+
+.rightContent{
+    margin-left: -26rem;
+    display: grid;
+}
+.smallImage{
+    margin-left: 10rem !important;
+}
+.rightContent span{
+    color: #ec3837;
+    font-size: 15px;
+    font-weight: 700;
+    display: flex;
+    align-items: end;
+}
+.rightContent p{
+    color: black;
+    font-size: 3rem;
+    font-weight: 500;
+}
+.rightContent button{
+    width: 13rem;
+    border: none;
+    height: 3rem;
+    z-index: 99;
+    background: none ;
+    border: 2px solid #ec3837;
+    color: #ec3837;
+    border-radius: 10px;
+    font-size: 13px;
+    font-weight: 700;
+}
+.carousel-indicators button{
+     background-color: black !important;
+}
+.rightContent button:hover{
+    background: #ec3837 ;
+    color: #fff;
+}
+.googleHomeImages{
+     height: 550px;
+}
+.homeImages{
+    height: 450px;
+}
+
+
+@media (max-width:992px){
+    .rightContent {
+        margin-left: 2rem;
+        /* margin-top: 2rem !important; */
+    }
+    .rightContent button{
+        width: 9rem;
+        height: 2rem;
+    }
+    .googleHomeImages{
+        height: 300px;
+   }
+   .homeImages{
+       height: 300px;
+       margin: auto;
+       margin-bottom: 2rem;
+   }
+   .rightContent p{
+      font-size: 2.2rem;
+     } 
+    .smallImage{
+        margin-left: 6rem !important;
+    }
+}
+
+@media (max-width:580px){
+    .homeBody img{
+        margin: auto;
+        margin-bottom: 2rem;
+        height: 200px;
+    }
+    .smallImage{
+        /* margin: 0px !important; */
+        width: 100%;
+        margin-left: 2rem !important;
+    }
+    .rightContent p{
+        font-size: 1.5rem;
+    }
+    .smallImage p{
+        font-size: 1.5rem;
+    }
+}

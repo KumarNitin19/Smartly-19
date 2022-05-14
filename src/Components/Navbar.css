@@ -1,0 +1,36 @@
+.navbar-nav a{
+    font-size: 15px;
+    font-weight: 700;
+}
+.navbar-expand-lg .navbar-nav .nav-link {
+    padding-right: 2.5rem !important;
+    padding-left: 1.5rem !important;
+}
+.navbar-brand{
+    color: #ec3837 !important;
+}
+
+.cartNumber{
+    margin-left: -11px;
+    height: 17px;
+    width: 17px;
+    justify-content: center;
+    background: red;
+    border-radius: 79%;
+    font-size: 0.8rem;
+    display: flex;
+    align-items: center;
+    color: white;
+    font-weight: 800;
+}
+
+
+.headerIcon{
+    font-size: 1.3rem;
+    color: black;
+    cursor: pointer;
+}
+
+.headerIcon:hover{
+    color: black;
+}
