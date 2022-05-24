@@ -19,8 +19,8 @@ const Home = () => {
                             <img src="assets/google-home.png" alt="" className="googleHomeImages" />
                             <div className="rightContent col-12">
                                 <span className="fw-bold">Google Home ---------</span>
-                                <p>Hello <span>User</span>, Your Home <br />
-                        Smart Devices & Best Solutions</p>
+                                <p>Hello , Your Home <br />
+                                 Smart Devices & Best Solutions</p>
                         <NavLink to="/products"><button>Go to Product</button></NavLink>
                             </div>
                         </div>
@@ -32,7 +32,7 @@ const Home = () => {
                             <img src="assets/google-mini.png" alt="" className="homeImages" />
                             <div className="rightContent smallImage" >
                                 <span className="fw-bold">Google Mini ---------</span>
-                                <p>Hello <span>User</span>, Your Home <br />
+                                <p>Hello, Your Home <br />
                         Smart Devices & Best Solutions</p>
                         <NavLink to="/products"><button>Go to Product</button></NavLink>
                             </div>
@@ -45,7 +45,7 @@ const Home = () => {
                             <img src="assets/alexa-2nd.png" alt="" className="homeImages" />
                             <div className="rightContent smallImage mt-3 mt-sm-0" >
                                 <span className="fw-bold">Amazon Echo Dot ---------</span>
-                                <p>Hello <span>User</span>, Your Home <br />
+                                <p>Hello , Your Home <br />
                         Smart Devices & Best Solutions</p>
                         <NavLink to="/products"><button>Go to Product</button></NavLink>
                             </div>
